@@ -1,5 +1,15 @@
 body {
   background: #1b1b25;
   color: #fff;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.title {
+  margin-top: 100px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.title hr {
+  width: 75%;
 }
