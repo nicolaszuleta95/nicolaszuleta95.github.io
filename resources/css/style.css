@@ -1,15 +1,81 @@
+/* BODY
+--------------------------------------------------------------------- */
+
 body {
   background: #1b1b25;
   color: #fff;
   font-family: "Ubuntu", sans-serif;
 }
 
-.title {
-  margin-top: 100px;
-  margin-bottom: 10px;
+/* ICONS
+--------------------------------------------------------------------- */
+
+.header-icons {
+  font-size: 30px;
   text-align: center;
 }
 
-.title hr {
+/* HEADER
+--------------------------------------------------------------------- */
+
+header {
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin: 5px 20px;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 350%;
+}
+
+hr {
   width: 75%;
+}
+
+/* NAVIGATION
+--------------------------------------------------------------------- */
+
+nav {
+  text-align: start;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* SECTIONS
+--------------------------------------------------------------------- */
+/* ABOUT
+------------------------------------------------------- */
+.about {
+  text-align: center;
+  margin: 25px;
+  padding: 25px;
+}
+
+.about img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.about p {
+  text-align: justify;
+}
+
+/* FOOTER
+--------------------------------------------------------------------- */
+
+footer {
 }
