@@ -74,6 +74,17 @@ a {
   text-align: justify;
 }
 
+.contact-details {
+  text-align: Center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 400px;
+  padding: 20px;
+}
+
+.contact-details:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
 /* FOOTER
 --------------------------------------------------------------------- */
 
