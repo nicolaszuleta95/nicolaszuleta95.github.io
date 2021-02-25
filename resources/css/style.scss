@@ -1,0 +1,172 @@
+/* VARIABLES
+--------------------------------------------------------------------- */
+$bg-color: #1b1b25;
+$bg-color-secondary: #0b0b1c;
+$bg-color-third: #393946;
+$bg-color-fourth: #59596b;
+$text-color: #fff;
+$font-primary: "Ubuntu", sans-serif;
+
+/* BODY
+--------------------------------------------------------------------- */
+body {
+  background: $bg-color;
+  color: $text-color;
+  font-family: $font-primary;
+  margin: 0;
+  padding: 0;
+}
+
+/* ICONS
+--------------------------------------------------------------------- */
+
+.header-icons {
+  font-size: 30px;
+  text-align: center;
+}
+
+/* HEADER
+--------------------------------------------------------------------- */
+
+header {
+  text-align: center;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  li {
+    display: inline-block;
+    margin: 5px 20px;
+    text-decoration: none;
+  }
+
+  h1 {
+    font-size: 350%;
+  }
+
+  hr {
+    width: 75%;
+  }
+}
+
+/* NAVIGATION
+--------------------------------------------------------------------- */
+
+nav {
+  background-color: $bg-color-third;
+  text-align: end;
+  a {
+    text-decoration: none;
+    color: $text-color;
+  }
+}
+
+/* SECTIONS
+--------------------------------------------------------------------- */
+/* ABOUT
+------------------------------------------------------- */
+.about {
+  text-align: center;
+  p {
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+.contact {
+  text-align: center;
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+  }
+}
+
+.contact-details {
+  background-color: $bg-color-secondary;
+  display: inline-block;
+  border: solid 0.5px #fff;
+  border-radius: 1rem;
+  text-align: Center;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.5);
+  width: 400px;
+  padding: 20px;
+  animation: pulse 1.5s infinite;
+
+  a:link {
+    color: $text-color;
+  }
+  a:visited {
+    color: $text-color;
+  }
+  a:hover {
+    color: $text-color;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.99);
+    box-shadow: 0 0 0 rgba(256, 256, 256, 0.1);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(256, 256, 256, 0);
+  }
+
+  100% {
+    transform: scale(0.99);
+    box-shadow: 0 0 0 rgba(256, 256, 256, 0);
+  }
+}
+
+/* Skills
+--------------------------------------------------------------------- */
+
+.skills {
+  text-align: center;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  li {
+    display: inline-block;
+    margin: 5px 20px;
+    text-decoration: none;
+  }
+
+  ion-icon {
+    font-size: 120px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  ion-icon:hover {
+    transform: scale(1.2);
+  }
+}
+
+/* Portfolio
+--------------------------------------------------------------------- */
+
+.portfolio {
+  text-align: center;
+}
+
+/* Footer
+--------------------------------------------------------------------- */
+footer {
+  display: block;
+  margin: 0;
+  padding: 0;
+  background-color: $bg-color-fourth;
+  text-align: center;
+  height: 50px;
+  p {
+    padding-top: 10px;
+  }
+}
