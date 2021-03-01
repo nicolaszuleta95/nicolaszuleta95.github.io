@@ -1,3 +1,5 @@
+/* Esas lineas de arriba son para que de el jekyll con github pages
+--------------------------------------------------------------------- */
 /* VARIABLES
 --------------------------------------------------------------------- */
 /* BODY
@@ -86,7 +88,7 @@ nav a {
   text-align: Center;
   -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.5);
           box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.5);
-  width: 400px;
+  width: 300px;
   padding: 20px;
   -webkit-animation: pulse 1.5s infinite;
           animation: pulse 1.5s infinite;
