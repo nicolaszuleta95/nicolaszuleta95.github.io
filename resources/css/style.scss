@@ -36,13 +36,16 @@ body {
 
 header {
   text-align: center;
+
   ul {
+    overflow: hidden;
     margin: 0;
     padding: 0;
     list-style-type: none;
   }
 
   li {
+    position: relative;
     display: inline-block;
     margin: 5px 20px;
     text-decoration: none;
@@ -61,8 +64,8 @@ header {
 --------------------------------------------------------------------- */
 
 nav {
+  text-align: right;
   background-color: $bg-color-third;
-  text-align: end;
   a {
     text-decoration: none;
     color: $text-color;
